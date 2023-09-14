@@ -1,0 +1,5 @@
+# Import swimming_pools.csv correctly: pools
+pools <- read.csv("swimming_pools.csv")
+
+# Check the structure of pools
+str(pools)
