@@ -1,0 +1,11 @@
+# readr is already loaded
+
+# Column names
+properties <- c("area", "temp", "size", "storage", "method",
+                "texture", "flavor", "moistness")
+
+# Import potatoes.txt using read_delim(): potatoes
+potatoes <- read_delim("potatoes.txt", col_names= properties)
+
+# Print out potatoes
+potatoes
