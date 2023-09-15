@@ -1,0 +1,8 @@
+# load the data.table package using library()
+library("data.table")
+
+# Import potatoes.csv with fread(): potatoes
+potatoes <- fread("potatoes.csv")
+
+# Print out potatoes
+potatoes
