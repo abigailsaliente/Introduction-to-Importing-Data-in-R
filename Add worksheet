@@ -1,0 +1,10 @@
+# XLConnect is already available
+
+# Build connection to urbanpop.xlsx
+my_book <- loadWorkbook("urbanpop.xlsx")
+
+# Add a worksheet to my_book, named "data_summary"
+createSheet(my_book, "data_summary")
+
+# Use getSheets() on my_book
+getSheets(my_book)
